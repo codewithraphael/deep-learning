@@ -26,7 +26,7 @@ This implementation is useful for understanding the core mechanics behind superv
 
 ## Project Structure
 
-- `src/main.py` — Contains the `Perceptron` class and its core methods
+- `src/perceptron.py` — Contains the `Perceptron` class and its core methods
 
 ## Features
 
@@ -56,7 +56,7 @@ The implementation includes the following methods:
 
 ```python
 import numpy as np
-from src.main import Perceptron
+from src.perceptron import Perceptron
 
 # Example dataset
 X = np.array([[0, 0], [0, 1], [1, 0], [1, 1]])
