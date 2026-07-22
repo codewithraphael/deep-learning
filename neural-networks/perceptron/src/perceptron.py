@@ -57,7 +57,7 @@ class Perceptron:
                 update = self.eta * (target - self.predict(xi))
                 self.w_ += update * xi
                 self.b_ += update
-                errors += int(update ! = 0.0)
+                errors += int(update != 0.0)
             self.errors_.append(errors)
         
         return self
